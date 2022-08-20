@@ -11,9 +11,6 @@
 		DE96938F28B08F7F00414B86 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE96938E28B08F7F00414B86 /* ContentView.swift */; };
 		DE96939128B08F8200414B86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE96939028B08F8200414B86 /* Assets.xcassets */; };
 		DE96939428B08F8200414B86 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE96939328B08F8200414B86 /* Preview Assets.xcassets */; };
-		DE96939E28B08F8300414B86 /* wordpress_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE96939D28B08F8300414B86 /* wordpress_iosTests.swift */; };
-		DE9693A828B08F8300414B86 /* wordpress_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9693A728B08F8300414B86 /* wordpress_iosUITests.swift */; };
-		DE9693AA28B08F8300414B86 /* wordpress_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9693A928B08F8300414B86 /* wordpress_iosUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +37,7 @@
 		DE96939028B08F8200414B86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE96939328B08F8200414B86 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DE96939928B08F8300414B86 /* wordpress-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "wordpress-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE96939D28B08F8300414B86 /* wordpress_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wordpress_iosTests.swift; sourceTree = "<group>"; };
 		DE9693A328B08F8300414B86 /* wordpress-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "wordpress-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE9693A728B08F8300414B86 /* wordpress_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wordpress_iosUITests.swift; sourceTree = "<group>"; };
-		DE9693A928B08F8300414B86 /* wordpress_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wordpress_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +69,6 @@
 			isa = PBXGroup;
 			children = (
 				DE96938B28B08F7F00414B86 /* wordpress-ios */,
-				DE96939C28B08F8300414B86 /* wordpress-iosTests */,
-				DE9693A628B08F8300414B86 /* wordpress-iosUITests */,
 				DE96938A28B08F7F00414B86 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,23 +100,6 @@
 				DE96939328B08F8200414B86 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		DE96939C28B08F8300414B86 /* wordpress-iosTests */ = {
-			isa = PBXGroup;
-			children = (
-				DE96939D28B08F8300414B86 /* wordpress_iosTests.swift */,
-			);
-			path = "wordpress-iosTests";
-			sourceTree = "<group>";
-		};
-		DE9693A628B08F8300414B86 /* wordpress-iosUITests */ = {
-			isa = PBXGroup;
-			children = (
-				DE9693A728B08F8300414B86 /* wordpress_iosUITests.swift */,
-				DE9693A928B08F8300414B86 /* wordpress_iosUITestsLaunchTests.swift */,
-			);
-			path = "wordpress-iosUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,7 +241,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE96939E28B08F8300414B86 /* wordpress_iosTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +248,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE9693AA28B08F8300414B86 /* wordpress_iosUITestsLaunchTests.swift in Sources */,
-				DE9693A828B08F8300414B86 /* wordpress_iosUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
