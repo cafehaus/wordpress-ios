@@ -11,6 +11,10 @@
 		DE96938F28B08F7F00414B86 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE96938E28B08F7F00414B86 /* ContentView.swift */; };
 		DE96939128B08F8200414B86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE96939028B08F8200414B86 /* Assets.xcassets */; };
 		DE96939428B08F8200414B86 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE96939328B08F8200414B86 /* Preview Assets.xcassets */; };
+		DE9693BA28B0ED7C00414B86 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9693B928B0ED7C00414B86 /* Theme.swift */; };
+		DE9693BC28B0F35300414B86 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9693BB28B0F35300414B86 /* DailyScrum.swift */; };
+		DE9693C028B0F4C800414B86 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9693BF28B0F4C800414B86 /* CardView.swift */; };
+		DE9693C228B106DF00414B86 /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9693C128B106DF00414B86 /* TrailingIconLabelStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +42,10 @@
 		DE96939328B08F8200414B86 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DE96939928B08F8300414B86 /* wordpress-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "wordpress-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE9693A328B08F8300414B86 /* wordpress-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "wordpress-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE9693B928B0ED7C00414B86 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		DE9693BB28B0F35300414B86 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
+		DE9693BF28B0F4C800414B86 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		DE9693C128B106DF00414B86 /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +94,11 @@
 		DE96938B28B08F7F00414B86 /* wordpress-ios */ = {
 			isa = PBXGroup;
 			children = (
+				DE9693B828B0ED5400414B86 /* Models */,
 				DE96938C28B08F7F00414B86 /* wordpress_iosApp.swift */,
 				DE96938E28B08F7F00414B86 /* ContentView.swift */,
+				DE9693C128B106DF00414B86 /* TrailingIconLabelStyle.swift */,
+				DE9693BF28B0F4C800414B86 /* CardView.swift */,
 				DE96939028B08F8200414B86 /* Assets.xcassets */,
 				DE96939228B08F8200414B86 /* Preview Content */,
 			);
@@ -100,6 +111,15 @@
 				DE96939328B08F8200414B86 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DE9693B828B0ED5400414B86 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DE9693B928B0ED7C00414B86 /* Theme.swift */,
+				DE9693BB28B0F35300414B86 /* DailyScrum.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +252,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE9693BC28B0F35300414B86 /* DailyScrum.swift in Sources */,
+				DE9693C228B106DF00414B86 /* TrailingIconLabelStyle.swift in Sources */,
+				DE9693BA28B0ED7C00414B86 /* Theme.swift in Sources */,
 				DE96938F28B08F7F00414B86 /* ContentView.swift in Sources */,
 				DE96938D28B08F7F00414B86 /* wordpress_iosApp.swift in Sources */,
+				DE9693C028B0F4C800414B86 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
