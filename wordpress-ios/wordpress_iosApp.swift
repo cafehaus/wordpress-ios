@@ -11,8 +11,9 @@ import SwiftUI
 struct wordpress_iosApp: App {
     var body: some Scene {
         WindowGroup {
-//            ContentView()
-            ScrumsView(scrums: DailyScrum.sampleData)
+            NavigationView {
+                ScrumsView(scrums: DailyScrum.sampleData)
+            }
         }
     }
 }
