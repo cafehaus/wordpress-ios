@@ -13,9 +13,9 @@ struct MainView: View {
     var body: some View {
         TabView(selection: $selectedTab) {
             HomeView()
-                .onTapGesture {
-                    self.selectedTab = 1
-                }
+//                .onTapGesture {
+//                    self.selectedTab = 1
+//                }
                 .tabItem {
                     Image(systemName: "text.book.closed")
                     Text("首页")
